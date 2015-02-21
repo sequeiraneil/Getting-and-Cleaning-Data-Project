@@ -10,8 +10,8 @@ do most of the heavy lifting makes sense.
 
 The assumption with this code is that all the data has been extracted to the working folder, and no modifications are made to any of the data or its names.
 
-`<Codebook.md>` has all the variables, data, and any transformation or work that was performed to clean up the data. 
+`Codebook.md` has all the variables, data, and any transformation or work that was performed to clean up the data. 
 
-`<run_analysis.R>` has the scripts that perform the project's analysis requirements. 
+`run_analysis.R` has the scripts that perform the project's analysis requirements. 
 
-`<averages_data.txt>` is the output of the code to submit for evaluation.
+`averages_data.txt` is the output of the code to submit for evaluation.
