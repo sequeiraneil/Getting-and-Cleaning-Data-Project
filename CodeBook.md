@@ -5,15 +5,15 @@ The script `run_analysis.R` performs the 5 steps described in the course project
 
 The order of operations is thus: 
 
-1. Merge all similar data using the `rbind()` function.  This includes the training data, the test data & the subject data 
+1. Merges all similar data using the `rbind()` function.  This includes the training data, the test data & the subject data 
 
-2. Select only the columns with the mean and standard deviation measures using the `features.txt` file.
+2. Extracts only the measurements with the mean and standard deviation measures for each measurement using the `features.txt` file.
 
-3. Activity data is numbered 1:6. ID's are replaced with activity names from the `activity_labels.txt` file.
+3. Applies descriptive activity names. Activity data is numbered 1:6, & is replaced with activity names from the `activity_labels.txt` file.
 
-4. Give columns meaningful names from the `features.txt` file.
+4. Label the data set with meaningful names. This script uses the lables from the `features.txt` file.
 
-5. The script then produces a new dataset with average measures for each subject and activity type (Since there are 30 subjects * 6 activities, we expect to have a 180 rows as the outpout). This output file (`averages_data.txt`),is uploaded to this repository.
+5. From this data, the script then produces a new, independent  dataset with average measures for each subject and activity type (Since there are 30 subjects * 6 activities, we expect to have a 180 rows as the outpout). This output file (`averages_data.txt`),is uploaded to this repository.
 
 
 

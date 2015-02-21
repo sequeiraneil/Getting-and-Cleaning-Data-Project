@@ -57,11 +57,11 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <p>The script <code>run_analysis.R</code> performs the 5 steps described in the course project’s definition.</p>
 <p>The order of operations is thus:</p>
 <ol style="list-style-type: decimal">
-<li><p>Merge all similar data using the <code>rbind()</code> function. This includes the training data, the test data &amp; the subject data</p></li>
-<li><p>Select only the columns with the mean and standard deviation measures using the <code>features.txt</code> file.</p></li>
-<li><p>Activity data is numbered 1:6. ID’s are replaced with activity names from the <code>activity_labels.txt</code> file.</p></li>
-<li><p>Give columns meaningful names from the <code>features.txt</code> file.</p></li>
-<li><p>The script then produces a new dataset with average measures for each subject and activity type (Since there are 30 subjects * 6 activities, we expect to have a 180 rows as the outpout). This output file (<code>averages_data.txt</code>),is uploaded to this repository.</p></li>
+<li><p>Merges all similar data using the <code>rbind()</code> function. This includes the training data, the test data &amp; the subject data</p></li>
+<li><p>Extracts only the measurements with the mean and standard deviation measures for each measurement using the <code>features.txt</code> file.</p></li>
+<li><p>Applies descriptive activity names. Activity data is numbered 1:6, &amp; is replaced with activity names from the <code>activity_labels.txt</code> file.</p></li>
+<li><p>Label the data set with meaningful names. This script uses the lables from the <code>features.txt</code> file.</p></li>
+<li><p>From this data, the script then produces a new, independent dataset with average measures for each subject and activity type (Since there are 30 subjects * 6 activities, we expect to have a 180 rows as the outpout). This output file (<code>averages_data.txt</code>),is uploaded to this repository.</p></li>
 </ol>
 </div>
 <div id="variables" class="section level2">
